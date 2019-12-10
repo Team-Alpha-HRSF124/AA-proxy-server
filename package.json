@@ -1,0 +1,28 @@
+{
+  "name": "aa-proxy-server",
+  "version": "1.0.0",
+  "description": "Proxy server for FEC project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Alpha-HRSF124/AA-proxy-server.git"
+  },
+  "author": "Arash Abbasi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-Alpha-HRSF124/AA-proxy-server/issues"
+  },
+  "homepage": "https://github.com/Team-Alpha-HRSF124/AA-proxy-server#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.1",
+    "path": "^0.12.7"
+  }
+}
